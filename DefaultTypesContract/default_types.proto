@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "Recuper.DefaultTypes";
+
+package default_types;
+
+// The service definition.
+service DefaultTypes {
+  
+}
+
+// Сообщение с текстовым представлением GUID
+message Uuid {
+  string value = 1;
+}
+
+// Стандартный ответ
+message DefaultReply {
+  int32 code = 1;
+  optional string description = 2;
+}
