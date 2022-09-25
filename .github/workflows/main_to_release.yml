@@ -36,7 +36,7 @@ jobs:
     - name: Pack
       run: dotnet pack DefaultTypesContract --configuration Release /p:Version=${VERSION} --no-build --output .
     - name: Push
-      run: dotnet nuget push ./NuGet.Recuper.DefaultTypes-Contract.${VERSION}.nupkg --source https://nuget.pkg.github.com/Gr8-Tools/index.json --api-key ${GITHUB_TOKEN}
+      run: dotnet nuget push ./NuGet.Recuper.DefaultTypes-Contract.${VERSION}.nupkg --source https://nuget.pkg.github.com/RecuperRus/index.json --api-key ${GITHUB_TOKEN}
       
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
