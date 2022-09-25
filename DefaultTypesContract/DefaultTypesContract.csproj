@@ -10,4 +10,13 @@
         <RepositoryUrl>https://github.com/RecuperRus/Utils-DefaultContractTypes</RepositoryUrl>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Grpc.AspNetCore" Version="2.48.0" />
+      <PackageReference Include="Grpc.Net.Client" Version="2.48.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Protobuf Include="*.proto" OutputDir="" CompileOutputs="false" GrpcServices="Both" />
+    </ItemGroup>
+
 </Project>
