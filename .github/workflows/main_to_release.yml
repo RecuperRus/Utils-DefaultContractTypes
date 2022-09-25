@@ -35,6 +35,8 @@ jobs:
     #   run: dotnet test DefaultTypesContract --no-build --configuration Release --verbosity normal
     - name: Pack
       run: dotnet pack DefaultTypesContract --configuration Release /p:Version=${VERSION} --no-build --output .
+    - name: Add source
+      run: dotnet nuget add source --username gr871 --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/RecuperRus/index.json"
     - name: Push
       run: dotnet nuget push ./NuGet.Recuper.DefaultTypes-Contract.${VERSION}.nupkg --source https://nuget.pkg.github.com/RecuperRus/index.json --api-key ${GITHUB_TOKEN}
       
