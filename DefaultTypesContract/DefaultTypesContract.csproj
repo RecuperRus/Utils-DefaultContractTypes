@@ -4,7 +4,10 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        
         <PackageId>NuGet.Recuper.DefaultTypes-Contract</PackageId>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/RecuperRus/DefaultTypes-Contract</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
