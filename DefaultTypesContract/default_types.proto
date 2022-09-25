@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option csharp_namespace = "Recuper.DefaultTypes";
 
-package default_types;
+package recuper.utils.default_types;
 
 // The service definition.
 service DefaultTypes {
