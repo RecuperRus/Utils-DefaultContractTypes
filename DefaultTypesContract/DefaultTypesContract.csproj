@@ -16,7 +16,13 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Protobuf Include="*.proto" OutputDir="" CompileOutputs="true" GrpcServices="Both" />
+        <Protobuf Include="*.proto" OutputDir="" CompileOutputs="false" GrpcServices="Both" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Content Include="*.proto">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
 </Project>
