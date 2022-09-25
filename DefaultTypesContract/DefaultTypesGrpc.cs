@@ -13,7 +13,7 @@ namespace Recuper.DefaultTypes {
   /// </summary>
   public static partial class DefaultTypes
   {
-    static readonly string __ServiceName = "default_types.DefaultTypes";
+    static readonly string __ServiceName = "recuper.utils.default_types.DefaultTypes";
 
 
     /// <summary>Service descriptor</summary>

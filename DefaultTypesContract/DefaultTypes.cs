@@ -24,10 +24,11 @@ namespace Recuper.DefaultTypes {
     static DefaultTypesReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChNkZWZhdWx0X3R5cGVzLnByb3RvEg1kZWZhdWx0X3R5cGVzIhUKBFV1aWQS",
-            "DQoFdmFsdWUYASABKAkiRgoMRGVmYXVsdFJlcGx5EgwKBGNvZGUYASABKAUS",
-            "GAoLZGVzY3JpcHRpb24YAiABKAlIAIgBAUIOCgxfZGVzY3JpcHRpb24yDgoM",
-            "RGVmYXVsdFR5cGVzQheqAhRSZWN1cGVyLkRlZmF1bHRUeXBlc2IGcHJvdG8z"));
+            "ChNkZWZhdWx0X3R5cGVzLnByb3RvEhtyZWN1cGVyLnV0aWxzLmRlZmF1bHRf",
+            "dHlwZXMiFQoEVXVpZBINCgV2YWx1ZRgBIAEoCSJGCgxEZWZhdWx0UmVwbHkS",
+            "DAoEY29kZRgBIAEoBRIYCgtkZXNjcmlwdGlvbhgCIAEoCUgAiAEBQg4KDF9k",
+            "ZXNjcmlwdGlvbjIOCgxEZWZhdWx0VHlwZXNCF6oCFFJlY3VwZXIuRGVmYXVs",
+            "dFR5cGVzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
