@@ -5,9 +5,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         
-        <PackageId>NuGet.Recuper.DefaultTypes-Contract</PackageId>
+        <PackageId>Recuper.DefaultTypes-Contract</PackageId>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/RecuperRus/DefaultTypes-Contract</RepositoryUrl>
+        <RepositoryUrl>https://github.com/RecuperRus/Utils-DefaultContractTypes</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
